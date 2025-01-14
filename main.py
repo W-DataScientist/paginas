@@ -16,10 +16,10 @@ paginas = {
     "Página 3": "pages.page_3"   # Mapeia "Página 3" para o arquivo page_3.py
 }
 
-# Cria um menu de navegação na barra lateral
+# Cria um menu de navegação na barra lateral usando radio buttons
 st.sidebar.title("Navegação")
 # Permite ao usuário selecionar uma página do menu
-pagina_selecionada = st.sidebar.selectbox("Selecione uma página", paginas.keys())
+pagina_selecionada = st.sidebar.radio("Selecione uma página", paginas.keys())
 
 # Exibe a página selecionada
 if pagina_selecionada == "Página Inicial":
