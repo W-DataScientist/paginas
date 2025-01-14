@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy as np  # Importa numpy para gerar dados aleatórios
+
 
 # Função principal da Página 2
 def main():
