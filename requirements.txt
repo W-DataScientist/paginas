@@ -1,0 +1,2 @@
+streamlit  # Biblioteca principal para criar o aplicativo web
+pandas     # Biblioteca para manipulação e análise de dados (usada na Página 3)
