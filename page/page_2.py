@@ -16,8 +16,4 @@ def main():
         Você pode modificar a lógica para incluir dados reais ou outros tipos de visualizações conforme necessário.
     """)
     
-    # Exemplo de gráfico simples
-    st.write("Aqui está um gráfico de linha:")
-    
-    data = np.random.randn(10, 2)  # Gera um array de dados aleatórios com 10 linhas e 2 colunas
-    st.line_chart(data)  # Plota os dados gerados como um gráfico de linha
+ 
